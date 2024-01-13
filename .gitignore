@@ -1,0 +1,7 @@
+# .gitignore
+
+.rasa/
+venv/
+actions/__pycache__/
+models/
+actions/.env
