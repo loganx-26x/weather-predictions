@@ -2,6 +2,11 @@
 
 This is a RASA project that uses the open source framework to build a contextual AI assistant.
 
+## THINGS TO NOTE!!
+The .env file that's needed to call the OpenWeather API is excluded from this repo since it's a private key. You can create a .env file in the actions folder
+and use Python's os & dotenv library to access those files to call your SECRET_API keys. 
+OS module is already installed in python & you can install dotenv using this command: _pip install python-dotenv_
+
 
 ## Installation
 
